@@ -74,6 +74,9 @@
 		   	iY = iY < MaxY ? iY : MaxY;	
 		   	$drag.css({left:iX,top:iY});   		
 		   	$showimg.css({left:-iX*multiple,top:-iY*multiple});
+		}).on('mouseleave',function(){
+			$drag.css('display','none');
+			$showprv.css('display','none');
 		})
 	})
 	
