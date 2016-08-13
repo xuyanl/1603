@@ -56,10 +56,8 @@
 		var $showprv = $bigshow.next('.show_prv');//放大镜的div;
 		var $showimg = $showprv.find('img');//放大镜图片；
 		multiple = $showprv.width()/$drag.width();
-		
-		
+
 		$bigshow.on('mousemove',function(e){
-			//console.log(e.pageX,e.pageY);
 			$drag.css('display','block');
 			$showprv.css('display','block');
 			//获取坐标

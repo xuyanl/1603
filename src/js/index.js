@@ -152,9 +152,6 @@ $(function(){
 				eight = setInterval(function(){lunbo("eight")},3000);
 			}).trigger('mouseleave');
 			
-			
-			
-			
 		
 			function lunbo(className){
 				var clas = className;
@@ -164,7 +161,6 @@ $(function(){
 					$ul.css('marginLeft',0);
         		})
        		};
-
 
 
 			//鼠标移入时给变margin-top
